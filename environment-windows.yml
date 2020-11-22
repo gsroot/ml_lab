@@ -1,4 +1,4 @@
-name: handson-ml2
+name: ml_lab
 channels:
   - conda-forge
   - defaults
@@ -29,6 +29,8 @@ dependencies:
   - tqdm=4.40.0
   - wheel
   - widgetsnbextension=3.5.1
+  - google-cloud-bigquery=2.2.0
+  - arrow=0.17.0
   - pip:
     #- atari-py==0.2.6 # NOT ON WINDOWS YET
     - ftfy==5.7
